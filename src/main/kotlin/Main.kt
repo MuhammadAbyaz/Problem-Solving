@@ -1,7 +1,4 @@
 fun main(args: Array<String>) {
-
-    val array : Array<Int> = arrayOf(1,2,3,4,5,6)
-
-    //get largest element's index
-    println(getLargestElement(array))
+    val array: Array<Int> = arrayOf(70, 30, 25, 80, 60, 50, 30, 75, 25, 60)
+    println(firstAndSecondLargest(array))
 }
